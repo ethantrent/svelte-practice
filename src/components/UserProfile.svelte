@@ -22,8 +22,8 @@
 
   {#if edit.isDirty()}
     <div class="actions">
-      <button type="button" class="primary" on:click={edit.save}>Save</button>
-      <button type="button" class="ghost" on:click={edit.cancel}>Cancel</button>
+      <button type="button" class="primary" onclick={edit.save}>Save</button>
+      <button type="button" class="ghost" onclick={edit.cancel}>Cancel</button>
     </div>
   {/if}
 </div>
